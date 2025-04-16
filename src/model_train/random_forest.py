@@ -1,7 +1,7 @@
 from sklearn.ensemble import RandomForestRegressor
 
 # Define the Random Forest Regressor model
-def train_rf_model(X_train_scaled, X_test_scaled, y_train, y_pred):
+def train_rf_model(X_train_scaled, X_test_scaled, y_train, y_test):
     model = RandomForestRegressor(n_estimators=100, random_state=42)
 
     # Train the model
